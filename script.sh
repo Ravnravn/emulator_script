@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Alias for listing available emulators and filter out unwanted info
 emulator:list() {
     $ANDROID_HOME/emulator/emulator -list-avds | grep -v "INFO"
